@@ -11,34 +11,46 @@
 <body>
     <div class="content">
         <div class="logo">UBER</div>
-        <div class="signup" >Sign Up to Ride</div>
-        <div class="safe">Safe, reliable rides in minutes</div>
-
-        <div class="names">
-            <p class="name">First name(required)</p>
-            <input type="text" name="first_name" placeholder="First name" required>
-
-            <p class="name">Last name(required)</p>
-            <input type="text" name="last_name" placeholder="Last name" required>
-        </div> 
-
-        <p>Enter your phone number (required)</p>
-        <input type="tel" name="phone_number" placeholder="Phone number" required>
-
-        <p>Enter your email (required)</p>
-        <input type="email" name="email" placeholder="Email address" required>
-
-        <p>Enter a password (required)</p>
-        <input type="password" name="password" placeholder="Password" required>
-
-        <a class="promo" href='#'>Add a promo code</a>
+        <h1>Sign Up to Ride</h1>
+        <h2>Safe, reliable rides in minutes</h2>
         <div>
-            <button type="submit">SIGN UP</button>
+            <form>
+                <div class="container">
+                    <div id="first-name">
+                        <label>First name(required)</label>
+                        <input type="text" name="first_name" placeholder="First name" required>
+                    </div>
+                    <div id="last-name">
+                        <label>Last name(required)</label>
+                        <input type="text" name="last_name" placeholder="Last name" required>
+                    </div>
+                </div>
+                <div class="wrap num_field">
+                    <label>Enter your phone number (required)</label>
+                    <input type="number" name="phone_number" placeholder="Phone number" required>
+                </div>
+                <div class="wrap">
+                    <label>Enter your email (required)</label>
+                    <input type="email" name="email" placeholder="Email address" required>
+                </div>
+                <div class="wrap">
+                    <label>Enter a password (required)</label>
+                    <input type="password" name="password" placeholder="Password" required>
+                </div>
+                <div>
+                    <a class="promo" href='#'>Add a promo code</a>
+                </div>
+
+                <div class="wrap">
+                    <button type="submit">SIGN UP</button>
+                </div>
+            </form>
         </div>
 
         <p>By clicking "Sign Up", you agree to Uber's
             <a href='#'>Terms Of Use</a> and acknowledge you have read the
-            <a href='#'>Privacy Policy</a></p>
+            <a href='#'>Privacy Policy</a>
+        </p>
     </div>
 </body>
 

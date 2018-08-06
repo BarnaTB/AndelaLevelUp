@@ -111,6 +111,7 @@ p {
 
 select {
     padding: 18px;
+    height: 55px;
     background-color: #fff;
     width: 100%;
 }

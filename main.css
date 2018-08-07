@@ -17,6 +17,7 @@ input {
     width: 100%;
     margin-bottom: 20px;
     font-size: 18px;
+    border-radius: 0;
 }
 
 .content {
@@ -111,6 +112,7 @@ p {
 
 select {
     padding: 18px;
+    border-radius: 0;
     height: 55px;
     background-color: #fff;
     width: 100%;
